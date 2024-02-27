@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+
+    <!-- Styles Css -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <title>Project Mosaferati</title>
+</head>
+<body class="font-Roboto">
+
+    <header class="header bg-no-repeat bg-cover bg-center">
+        <!-- Navigation -->
+        <nav class="navigation bg-transparent py-5">
+            <div class="container mx-auto px-8 flex justify-between flex-wrap items-center">
+                <div>
+                    <a href="#" class="text-white text-4xl font-bold">Transit</a>
+                </div>
+
+                <!-- svg -->
+                <div class="md:hidden" id="navIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                      </svg>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center w-full md:w-auto gap-7 hidden md:flex" id="navMenu">
+                    <ul class="flex flex-col md:flex-row text-center gap-7 list-none pt-8 md:pt-0">
+                        <li><a class="text-lg text-gray-500 font-normal hover:text-white duration-200 ease-in-out" href="#">Home</a></li>
+                        <li><a class="text-lg text-gray-500 font-normal hover:text-white duration-200 ease-in-out" href="#">Generic</a></li>
+                        <li><a class="text-lg text-gray-500 font-normal hover:text-white duration-200 ease-in-out" href="#">Elements</a></li>
+                    </ul>
+
+                    <div>
+                        <button class="block text-gray-700 bg-gray-200 cursor-pointer text-lg font-semibold shadow p-2 px-4 rounded-full hover:bg-white duration-200 ease-in-out hover:underline hover:shadow-2xl">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner Content -->
+        <section class="banner-content pt-48 pb-36">
+            <div class="container mx-auto">
+                <div class="flex flex-col justify-center gap-8 text-center">
+                    <h1 class="text-white text-3xl md:text-6xl font-bold">Hi. This is Transit.</h1>
+                    <p class="text-gray-300 text-lg md:text-xl font-normal">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </p>
+                    <div class="text-center">
+                        <button class="block mx-auto text-[rgba(255,255,255,.8)] border-none bg-cyan-600 cursor-pointer text-xl font-normal shadow p-3 px-8 rounded-full hover:bg-cyan-500 duration-200 ease-in-out hover:shadow-2xl">Lorem ipsum dolor</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- Section Services -->
+        <section class="services py-32 bg-gray-100">
+            <div class="container mx-auto px-8">
+                <!-- Title -->
+                <div class="flex flex-col gap-6 justify-center text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl text-gray-700 font-bold">Consectetur adipisicing elit</h2>
+                    <p class="text-lg md:text-2xl text-gray-500 font-normal">
+                        Lorem ipsum dolor sit amet, delectus consequatur, similique quia!
+                    </p>
+                </div>
+
+                <!-- content -->
+                <div class="flex flex-wrap flex-col md:flex-row gap-4">
+                    <div class="flex-1">
+                        <div class="flex flex-col justify-center text-center p-5 pb-16 rounded bg-white border">
+                            <div class="text-center py-3 flex-shrink-0">
+                                <span class="flex justify-center items-center bg-cyan-400 w-32 h-32 rounded-full mx-auto ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-8 h-8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+                                      </svg>
+                                </span>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="text-gray-500 text-2xl font-semibold truncate mb-5">Lorem ipsum dolor</h3>
+                            </div>
+                            <div class="">
+                                <p class="text-gray-400 text-lg font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex flex-col justify-center text-center p-5 pb-16 rounded bg-white border">
+                            <div class="text-center py-3 flex-shrink-0">
+                                <span class="flex justify-center items-center bg-lime-400 w-32 h-32 rounded-full mx-auto ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-8 h-8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 9V5.25A2.25 2.25 0 0 1 10.5 3h6a2.25 2.25 0 0 1 2.25 2.25v13.5A2.25 2.25 0 0 1 16.5 21h-6a2.25 2.25 0 0 1-2.25-2.25V15m-3 0-3-3m0 0 3-3m-3 3H15" />
+                                      </svg>
+
+                                </span>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="text-gray-500 text-2xl font-semibold truncate mb-5">Lorem ipsum dolor</h3>
+                            </div>
+                            <div class="">
+                                <p class="text-gray-400 text-lg font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1">
+                        <div class="flex flex-col justify-center text-center p-5 pb-16 rounded bg-white border">
+                            <div class="text-center py-3 flex-shrink-0">
+                                <span class="flex justify-center items-center bg-red-500 w-32 h-32 rounded-full mx-auto ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-white w-8 h-8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                                      </svg>
+
+                                </span>
+                            </div>
+                            <div class="p-3">
+                                <h3 class="text-gray-500 text-2xl font-semibold truncate mb-5">Lorem ipsum dolor</h3>
+                            </div>
+                            <div class="">
+                                <p class="text-gray-400 text-lg font-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quam consectetur quibusdam magni minus aut modi aliquid.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Profiles -->
+        <section class="profile py-32 bg-white border-t">
+            <div class="container mx-auto px-8">
+                <!-- Title -->
+                <div class="flex flex-col gap-6 justify-center text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl text-gray-700 font-bold">Consectetur adipisicing elit</h2>
+                    <p class="text-lg md:text-2xl text-gray-500 font-normal">
+                        Lorem ipsum dolor sit amet, delectus consequatur, similique quia!
+                    </p>
+                </div>
+
+                <!-- content -->
+                <div>
+                    <div class="flex flex-wrap flex-col md:flex-row gap-y-3 lg:gap-y-3 justify-between border-t border-b py-16">
+                        <div class="md:w-1/2 lg:flex-1">
+                            <div class="flex justify-around items-center gap-6">
+                                <div class="rounded-full overflow-hidden w-20 h-20 flex-shrink-0">
+                                    <img src="./assets/img/profile_placeholder.gif" class="w-full h-full object-cover" alt="user-profile" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-lg text-gray-700">Lorem ipsum</h3>
+                                    <p class="text-sm text-gray-500">Lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:w-1/2 lg:flex-1">
+                            <div class="flex justify-around items-center gap-6">
+                                <div class="rounded-full overflow-hidden w-20 h-20 flex-shrink-0">
+                                    <img src="./assets/img/profile_placeholder.gif" class="w-full h-full object-cover" alt="user-profile" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-lg text-gray-700">Lorem ipsum</h3>
+                                    <p class="text-sm text-gray-500">Lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:w-1/2 lg:flex-1">
+                            <div class="flex justify-around items-center gap-6">
+                                <div class="rounded-full overflow-hidden w-20 h-20 flex-shrink-0">
+                                    <img src="./assets/img/profile_placeholder.gif" class="w-full h-full object-cover" alt="user-profile" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-lg text-gray-700">Lorem ipsum</h3>
+                                    <p class="text-sm text-gray-500">Lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="md:w-1/2 lg:flex-1">
+                            <div class="flex justify-around items-center gap-6">
+                                <div class="rounded-full overflow-hidden w-20 h-20 flex-shrink-0">
+                                    <img src="./assets/img/profile_placeholder.gif" class="w-full h-full object-cover" alt="user-profile" />
+                                </div>
+                                <div class="text-center">
+                                    <h3 class="text-lg text-gray-700">Lorem ipsum</h3>
+                                    <p class="text-sm text-gray-500">Lorem ipsum dolor</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center pt-16">
+                        <p class="text-sm text-gray-500 font-normal leading-8 text-center max-w-5xl mx-auto mb-8">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolore illum, temporibus veritatis eligendi, aliquam, dolor enim itaque veniam aut eaque sequi qui quia vitae pariatur repudiandae ab dignissimos ex!
+                        </p>
+
+                        <div class="text-center">
+                            <button class="block mx-auto text-[rgba(255,255,255,.8)] border-none bg-cyan-500 cursor-pointer text-xl font-normal shadow p-3 px-8 rounded-full hover:bg-cyan-600 duration-200 ease-in-out hover:shadow-2xl">Lorem ipsum dolor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Contact -->
+        <section class="contactUs py-32 bg-cyan-500">
+            <div class="container mx-auto px-8">
+                <!-- Title -->
+                <div class="flex flex-col gap-6 justify-center text-center mb-16">
+                    <h2 class="text-3xl md:text-5xl text-white font-bold">Consectetur adipisicing elit</h2>
+                    <p class="text-lg md:text-2xl text-white font-normal">
+                        Lorem ipsum dolor sit amet, delectus consequatur, similique quia!
+                    </p>
+                </div>
+
+                <!-- content -->
+                <div class="md:max-w-5xl mx-auto">
+                    <form class="grid grid-cols-1 md:grid-cols-2 gap-3">
+
+                        <input type="text" class="bg-white rounded form-input px-4 py-3 w-full" placeholder="Name" />
+                        <input type="email" class="bg-white rounded form-input px-4 py-3 w-full" placeholder="Email" />
+                        <textarea class="bg-white md:col-span-2 rounded form-textarea px-4 py-3 w-full h-64" placeholder="Message"></textarea>
+
+                    </form>
+
+                    <div class="text-center mt-8">
+                        <button class="block mx-auto text-[rgba(255,255,255,.8)] border-none bg-slate-700 cursor-pointer text-xl font-normal shadow p-3 px-8 rounded-full hover:bg-slate-800 duration-200 ease-in-out hover:shadow-2xl">Send Message</button>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-700 py-28">
+        <div class="container mx-auto px-8">
+            <ul class="copyright text-left text-gray-500 text-lg flex flex-col md:flex-row gap-5">
+                <li>© Untitled. All rights reserved.</li>
+                <li>Design: <a class="text-gray-500" href="http://templated.co">TEMPLATED</a></li>
+                <li>Images: <a class="text-gray-500" href="http://unsplash.com">Unsplash</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+
+</body>
+</html>

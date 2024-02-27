@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    
+}
+
+.header{
+    background-image:url('./../img/dark_tint.png') , url('./../img/bokeh_car_lights_bg.jpg');
+}
